@@ -1,0 +1,21 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introducedÉ
+	I think it's a pretty good idea. This helps keep track of the changes that have been made, which in terms provides an easy way to find out where the bug is.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	It definitely helps you manage the work that you have done over the file so you can always go back to the previous versions and see how these have been done. 
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	Pros: you have full control of when to commit the changes and with the comment you add for the commit, you know what is the main change for each commit.
+	Cons: sometimes you may forget to commit after a lot of code changes are made, then each commit may contains different types of changes or more than one thing that should be committed for.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Saving multiple files in one commit saves time and keeps track on the changes each time these changes are made. So once you read that commit, you know which files you made changes on. If the files are treated separately, you would have to check each file individually.
+	
+5. How can you use the commands git log and git diff to view the history of files?
+	git log to view the commit ID and some other information like who made the change and the commit message. git diff compares the two commits and show the differences between these two commits.
+
+6. How might using version control make you more confident to make changes that could break something?
+	We can always check which commit we break something and go back to investigate which lines of code cause the issue.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+	Share files.
